@@ -1,17 +1,76 @@
-# Operating system files
+# =========================
+# KiCad temporary files
+# =========================
+*.bak
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Autosave / backup files
+*_autosave*
+*.save
+
+# Lock files
+*.lck
+
+# =========================
+# Plot / fabrication outputs (OPTIONAL)
+# =========================
+# -> garde-les si tu veux versionner les gerbers
+*.gbr
+*.drl
+*.d356
+*.pos
+*.csv
+*.rpt
+*.stl
+*.step
+*.stp
+
+# =========================
+# Netlists & intermediate files
+# =========================
+*.net
+*.xml
+
+# =========================
+# Simulation / spice
+# =========================
+*.cir
+*.raw
+
+# =========================
+# Python / scripting (KiCad plugins)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+
+# =========================
+# OS files
+# =========================
 .DS_Store
 Thumbs.db
-Desktop.ini
 
-# Editor and local tooling files
-.vscode/
-.idea/
+# Versioning helpers / editor artifacts
+.history/
+*.zip
 
-# KiCad local and backup files
-*.bak
-*.lck
-*-backups/
+# =========================
+# Logs
+# =========================
+*.log
 
-# Build output
-build/
-out/
+# =========================
+# KiCad cache / hidden
+# =========================
+.fp-info-cache
+.sym-lib-table.cache
+
+# =========================
+# 3D Assembly files
+# =========================
+hardware/common/3d_models/Assembly/
+hardware/common/3d_models/assembly/
+``

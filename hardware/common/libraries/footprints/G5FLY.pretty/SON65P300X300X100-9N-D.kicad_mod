@@ -1,0 +1,289 @@
+(footprint "SON65P300X300X100-9N-D"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SOT782-1")
+	(tags "Integrated Circuit")
+	(property "Reference" "U12"
+		(at -1.15 2.475 180)
+		(layer "F.SilkS")
+		(uuid "60478f35-1bce-4351-a823-b7a1c1ce5469")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TJA1462ATK"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bc573a39-cf96-46a9-848a-e2e85e8e8871")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/TJA1462.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61be87df-2dd4-4f73-8620-69a8380975e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CAN FD signal improvement transceiver with Standby mode"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86cadd4e-bf07-4959-a597-ba87246250d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "NXP USA Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7daf2ca-6f0b-43e0-8f8a-2ae4c7ae4285")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MFPN" "TJA1462ATK/0Z"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d94625a9-07b8-4ad9-8e31-e2c438b6bf1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB" "C3229259"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f02412c9-30b5-40dd-898c-c9c58368cd64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey" "568-TJA1462ATK/0ZCT-ND"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67b4a9eb-eb02-4b73-a3aa-81de20d89fa1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/Communication/")
+	(sheetfile "communication.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.875 -1.65)
+		(end -1.875 -1.525)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8a661eaa-2cb4-4628-948c-c9c0bf50d47a")
+	)
+	(fp_line
+		(start -2.125 -1.8)
+		(end -2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66a4535e-c271-4307-9977-d5419f81d846")
+	)
+	(fp_line
+		(start -2.125 1.8)
+		(end 2.125 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5ab8daf-85dc-4b0b-9fc2-6d924419e0d1")
+	)
+	(fp_line
+		(start 2.125 -1.8)
+		(end -2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9064e525-f84d-4d85-abd0-13388e566ec0")
+	)
+	(fp_line
+		(start 2.125 1.8)
+		(end 2.125 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4769ce37-d3f9-46d9-aa79-e4a9b898a73e")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "308985c0-7c0c-4c4d-b257-36115ffedd31")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f220fcf0-b107-4e33-8052-d61465821646")
+	)
+	(fp_line
+		(start -0.75 -1.5)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe1a03ca-b2eb-46de-9eaa-2d9c6880bcf8")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf87c23a-b52c-45ea-8302-af3a33deeb08")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abc13b98-5216-4de0-a06b-f07e360773b5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "10b99c27-a414-44ea-b153-711208cf2212")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.45 -0.975 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "14ff2bee-6a6a-4c6c-a2c5-d3ce01d0a734")
+	)
+	(pad "2" smd rect
+		(at -1.45 -0.325 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6794fa64-8406-4b6f-9e75-1501e5c5bd37")
+	)
+	(pad "3" smd rect
+		(at -1.45 0.325 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e2e757bd-cbf0-4cd6-82d6-8b40c14fe613")
+	)
+	(pad "4" smd rect
+		(at -1.45 0.975 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fb528ceb-f8ac-4d32-aab8-76671db77f8b")
+	)
+	(pad "5" smd rect
+		(at 1.45 0.975 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c203ce10-71c9-4d1c-82ae-7efe3bff9f82")
+	)
+	(pad "6" smd rect
+		(at 1.45 0.325 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "19e0356e-786f-4e75-b5e6-0fa4d2128422")
+	)
+	(pad "7" smd rect
+		(at 1.45 -0.325 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7c77b8dc-8f2d-4e60-99e1-d4225f2938f0")
+	)
+	(pad "8" smd rect
+		(at 1.45 -0.975 90)
+		(size 0.35 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "402eef31-0aef-433b-a9f3-d0fbba50130e")
+	)
+	(pad "9" smd rect
+		(at 0 0)
+		(size 1.65 2.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "99ef0c92-d1fa-4e0f-9ba3-198005e816e9")
+	)
+	(embedded_fonts no)
+	(model "${SPINALI_3DMODEL_DIR}/TJA1462ATK.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
