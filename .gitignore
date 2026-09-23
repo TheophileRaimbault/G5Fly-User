@@ -17,7 +17,6 @@
 # =========================
 # Plot / fabrication outputs (OPTIONAL)
 # =========================
-# -> garde-les si tu veux versionner les gerbers
 *.gbr
 *.drl
 *.d356

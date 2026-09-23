@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "ad55d3bd-c80e-4e47-ab82-7f42340ded40")
 	(paper "A2")
+	(title_block
+		(title "G5Fly_NXP-MCXA154 ")
+		(date "2026-09-23")
+		(rev "2")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
 			(exclude_from_sim no)
